@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* ============================================================
    NORDWISE — build.js
-   Genera la web completa en /public a partir de /content.
+   Genera la web completa en /docs a partir de /content.
    No necesitas tocar este archivo para editar la web:
    todo el contenido vive en /content (archivos .md).
    Uso:  node build.js   (o doble clic en build.command)
@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = __dirname;
-const OUT  = path.join(ROOT, 'public');
+const OUT  = path.join(ROOT, 'docs');
 const SITE = 'https://nordwise.net';
 const YEAR = new Date().getFullYear();
 
