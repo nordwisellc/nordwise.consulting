@@ -33,6 +33,8 @@ Para mucho más de lo que parece:
 
 Una LLC gestionada desde España debe declararse correctamente. Dependiendo de tu caso pueden aplicar obligaciones informativas y la renta que generes tributa en tu IRPF. Nada de esto es un problema si se planifica, el problema es descubrirlo dos años tarde.
 
+Y si aún no tienes claro si te toca darte de alta como autónomo en España, o si te compensa más una SL, lo explicamos en [cuándo darse de alta como autónomo](/blog/cuando-darse-de-alta-como-autonomo/).
+
 > La LLC no es un truco para dejar de pagar impuestos. Es una herramienta de estructura, cobros y protección que, bien usada, es perfectamente legal y tremendamente útil.
 
 ## ¿Cuándo tiene sentido?

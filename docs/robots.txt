@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nordwise.net/sitemap.xml
+Sitemap: https://nordwise.consulting/sitemap.xml

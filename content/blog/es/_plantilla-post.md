@@ -11,6 +11,17 @@ description: Resumen de 1-2 frases. Aparece en Google y en la tarjeta del blog. 
 date: 2026-01-01
 slug: url-del-articulo
 author: Nordwise
+# Opcional: firma con tu nombre (mejora la confianza ante Google)
+# author: Hugo López
+# author_role: Economista
+# Opcional: imagen para compartir (1200x630) en assets/img/
+# image: /static/img/og-mi-post.png
+# Opcional: fecha de actualización (Google la ve en el sitemap y en los datos estructurados)
+# updated: 2026-01-15
+# Opcional: copia aquí las preguntas frecuentes para que salgan como datos estructurados
+# faq:
+#   - q: ¿Pregunta?
+#     a: Respuesta en texto plano.
 tags:
   - LLC
   - Fiscalidad

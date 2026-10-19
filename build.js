@@ -12,7 +12,7 @@ const path = require('path');
 
 const ROOT = __dirname;
 const OUT  = path.join(ROOT, 'docs');
-const SITE = 'https://nordwise.net';
+const SITE = 'https://nordwise.consulting';
 const YEAR = new Date().getFullYear();
 
 /* ── Utilidades ──────────────────────────────────────────── */
@@ -40,7 +40,7 @@ function md(src) {
     const l = lines[i];
     if (/^\s*$/.test(l)) { flushP(p); i++; continue; }
     let m;
-    if ((m = l.match(/^(#{1,4})\s+(.*)/))) { flushP(p); const h = m[1].length + 1; html.push(`<h${h}>${inline(m[2])}</h${h}>`); i++; continue; }
+    if ((m = l.match(/^(#{1,4})\s+(.*)/))) { flushP(p); const h = Math.max(2, m[1].length); html.push(`<h${h}>${inline(m[2])}</h${h}>`); i++; continue; }
     if (/^\s*(-{3,}|\*{3,})\s*$/.test(l)) { flushP(p); html.push('<hr>'); i++; continue; }
     if (/^\s*>/.test(l)) {
       flushP(p); const q = [];
@@ -440,16 +440,25 @@ function postHtml(p, cfg) {
 function headHtml(p, cfg) {
   const d = p.data, alt = altOf(p);
   const url = SITE + d.url;
+  const ogImg = SITE + (d.image || '/static/img/og-default.png');
   const ld = [];
   if (d.layout === 'home') {
-    ld.push({ '@context': 'https://schema.org', '@type': 'Organization', name: 'Nordwise LLC', url: SITE, email: cfg.email, logo: SITE + '/static/img/favicon.svg', sameAs: [] });
+    ld.push({ '@context': 'https://schema.org', '@type': 'Organization', name: 'Nordwise LLC', url: SITE, email: cfg.email, logo: SITE + '/static/img/logo.png', sameAs: [] });
     ld.push({ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Nordwise', url: SITE, inLanguage: p.lang });
   }
   if (Array.isArray(d.faq) && d.faq.length) {
     ld.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: d.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
   }
   if (d.layout === 'post') {
-    ld.push({ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: d.title, description: d.description || '', datePublished: d.date, dateModified: d.updated || d.date, inLanguage: p.lang, author: { '@type': 'Organization', name: 'Nordwise' }, publisher: { '@type': 'Organization', name: 'Nordwise LLC' }, mainEntityOfPage: url });
+    const author = d.author && d.author !== 'Nordwise'
+      ? { '@type': 'Person', name: d.author, ...(d.author_role ? { jobTitle: d.author_role } : {}), url: SITE + (d.author_url || (p.lang === 'en' ? '/en/about-us/' : '/sobre-nosotros/')) }
+      : { '@type': 'Organization', name: 'Nordwise', url: SITE };
+    ld.push({ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: d.title, description: d.description || '', image: ogImg, datePublished: d.date, dateModified: d.updated || d.date, inLanguage: p.lang, author, publisher: { '@type': 'Organization', name: 'Nordwise LLC', url: SITE, logo: { '@type': 'ImageObject', url: SITE + '/static/img/logo.png' } }, mainEntityOfPage: url });
+    const blogUrl = SITE + (p.lang === 'en' ? '/en/blog/' : '/blog/');
+    ld.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: p.lang === 'en' ? 'Home' : 'Inicio', item: SITE + (p.lang === 'en' ? '/en/' : '/') },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: blogUrl },
+      { '@type': 'ListItem', position: 3, name: d.title, item: url }] });
   }
   if (d.layout === 'service' && d.title) {
     ld.push({ '@context': 'https://schema.org', '@type': 'Service', name: d.title, description: d.description || '', provider: { '@type': 'Organization', name: 'Nordwise LLC', url: SITE }, areaServed: 'Worldwide' });
@@ -469,7 +478,12 @@ function headHtml(p, cfg) {
 <meta property="og:url" content="${url}">
 <meta property="og:site_name" content="Nordwise">
 <meta property="og:locale" content="${p.lang === 'es' ? 'es_ES' : 'en_US'}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="${ogImg}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">${d.layout === 'post' ? `
+<meta property="article:published_time" content="${esc(d.date || '')}">
+<meta property="article:modified_time" content="${esc(d.updated || d.date || '')}">` : ''}
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="/static/img/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -543,7 +557,8 @@ const smUrls = all.map(p => {
   const alts = alt ? `
     <xhtml:link rel="alternate" hreflang="${p.lang}" href="${SITE + p.data.url}"/>
     <xhtml:link rel="alternate" hreflang="${alt.lang}" href="${SITE + alt.data.url}"/>` : '';
-  return `  <url><loc>${SITE + p.data.url}</loc>${alts}
+  const lm = p.data.updated || p.data.date;
+  return `  <url><loc>${SITE + p.data.url}</loc>${lm ? `<lastmod>${lm}</lastmod>` : ''}${alts}
   </url>`;
 }).join('\n');
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'),

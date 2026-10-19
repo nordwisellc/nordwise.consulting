@@ -1,14 +1,22 @@
 ---
-title: Cuándo darse de alta como autónomo (y cuándo pasar a SL)
+title: Cuándo darse de alta como autónomo en 2026 (y cuándo pasar a SL)
 description: Cuándo darse de alta como autónomo en 2026: Hacienda y Seguridad Social, qué pasa si ganas menos del SMI y cuánto te cuesta regularizar tarde.
 date: 2026-10-19
 slug: cuando-darse-de-alta-como-autonomo
 ref: post-alta-autonomo
 author: Nordwise
+image: /static/img/og-alta-autonomo.png
 tags:
   - España
   - Fiscalidad
   - Autónomos
+faq:
+  - q: ¿A partir de cuánto dinero hay que darse de alta como autónomo?
+    a: No hay una cifra. Hacienda no fija ningún umbral de ingresos para el alta censal. En la Seguridad Social lo que cuenta es la habitualidad, y el Tribunal Supremo ha dejado claro que ganar menos del SMI es solo un indicio, no una exención.
+  - q: ¿Puedo darme de alta en Hacienda y no en la Seguridad Social?
+    a: Son dos altas con criterios distintos. Hacienda pide el alta desde que vas a desarrollar una actividad, incluso ocasional; la Seguridad Social, cuando la actividad es habitual. Puede darse el caso de estar solo en Hacienda, pero ganar poco no basta por sí solo para justificarlo.
+  - q: ¿Necesito una SL para facturar al extranjero?
+    a: No. Un autónomo puede facturar a clientes de fuera de España. La SL tiene sentido por otros motivos, como tener varios socios, separar patrimonio o un beneficio alto.
 ---
 
 Si vas a empezar a facturar, la duda de **cuándo darse de alta como autónomo** tiene una respuesta corta. En Hacienda, desde que empiezas la actividad: no hay ningún mínimo de ingresos. En la Seguridad Social, cuando la actividad es habitual, y ganar menos del salario mínimo no te libra. Al principio tienes margen para comprobar si lo tuyo va a ser continuo o puntual. Te contamos cómo usarlo sin que te salga caro, cómo compaginarlo con un empleo y cuándo pasar a una SL o mirar fuera de España.
@@ -36,6 +44,14 @@ Un detalle que pasa desapercibido: a efectos de IVA, la actividad se considera i
 ### Seguridad Social: la clave es la habitualidad
 
 Aquí importa cómo trabajas, no cuánto ganas. La Ley General de la Seguridad Social exige el alta cuando realizas la actividad "de forma habitual, personal, directa, por cuenta propia" y con ánimo de lucro.
+
+## Cómo darse de alta como autónomo, paso a paso
+
+1. **Alta en Hacienda con el modelo 036**, antes de empezar la actividad. Lo presentas online en la sede de la Agencia Tributaria con certificado digital o Cl@ve. Ahí eliges tu epígrafe de actividad (IAE) y tus obligaciones de IVA e IRPF.
+2. **Alta en la Seguridad Social (RETA)**, desde el portal Import@ss. Indicas la fecha de inicio, tu previsión de rendimientos (que fija tu tramo de cuota) y, si te corresponde, pides la cuota reducida de nuevo autónomo.
+3. **Revisa tus obligaciones trimestrales** (según tu actividad, IVA con el modelo 303 e IRPF con el modelo 130) para no llevarte sorpresas en el primer trimestre.
+
+Más abajo te contamos cuánto cuesta cada cosa y qué pasa si lo haces tarde.
 
 ## ¿Y si gano menos del salario mínimo?
 
@@ -118,7 +134,7 @@ Cuatro matices:
 - **Sigues cotizando como autónomo** si controlas la sociedad (50% o más del capital).
 - **La protección tiene límites:** avales personales que firmes, responsabilidad del administrador y deudas con Hacienda.
 - **La SL necesita actividad y medios propios.** Si es solo una carcasa para facturar tu trabajo personal, Hacienda puede recalificarlo.
-- **No necesitas una SL para vender fuera de España.** Un autónomo puede facturar al extranjero.
+- **No necesitas una SL para vender fuera de España.** Un autónomo puede facturar al extranjero. Si tus clientes son internacionales, otra opción es una [LLC en EE. UU. para residentes en España](/blog/llc-en-eeuu-para-espanoles/), que también tributa aquí.
 
 A grandes rasgos, la SL suele tener sentido cuando sois dos o más socios y necesitáis organizaros, cuando quieres separar tu patrimonio o proteger otro negocio, o cuando el beneficio ronda los 40–50 k€ anuales o más. Esa cifra es una referencia práctica, no una norma: depende de cuánto saques de la sociedad y de los costes extra (contabilidad, cuota de autónomo societario). Hacer esos números es parte de nuestros [servicios financieros](/servicios-financieros/).
 
@@ -151,7 +167,7 @@ Son dos altas con criterios distintos. Hacienda pide el alta desde que vas a des
 
 ### ¿Necesito una SL para facturar al extranjero?
 
-No. Un autónomo puede facturar a clientes de fuera de España. La SL tiene sentido por otros motivos: varios socios, separar patrimonio o un beneficio alto.
+No. Un autónomo puede facturar a clientes de fuera de España. La SL tiene sentido por otros motivos: varios socios, separar patrimonio o un beneficio alto. Si trabajas sobre todo con clientes internacionales, te puede interesar leer [qué hace (y qué no) una LLC americana](/blog/llc-en-eeuu-para-espanoles/).
 
 ## Fuentes oficiales
 

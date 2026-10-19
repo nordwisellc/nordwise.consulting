@@ -89,5 +89,5 @@ ambos posts para que Google los relacione como traducciones.
 Cada página sale con: title y meta description propios, URL limpia, `canonical`,
 `hreflang` ES↔EN, Open Graph, datos estructurados (Organization, FAQPage en las
 páginas con FAQ, Service en servicios y BlogPosting en los posts), `sitemap.xml`
-y `robots.txt`. Al publicar, da de alta `https://nordwise.net/sitemap.xml` en
+y `robots.txt`. Al publicar, da de alta `https://nordwise.consulting/sitemap.xml` en
 Google Search Console.
