@@ -487,6 +487,7 @@ function headHtml(p, cfg) {
 <link rel="icon" type="image/svg+xml" href="/static/img/favicon.svg">
 <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/static/img/monograma/nordwise-aguja-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/static/img/monograma/nordwise-aguja-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Epilogue:wght@400;600;700;800&family=Figtree:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -572,6 +573,8 @@ ${smUrls}
 
 /* robots.txt */
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+/* CNAME: mantiene el dominio personalizado en GitHub Pages (el build borra docs/) */
+if (fs.existsSync(path.join(ROOT, 'CNAME'))) fs.copyFileSync(path.join(ROOT, 'CNAME'), path.join(OUT, 'CNAME'));
 
 /* 404 */
 fs.writeFileSync(path.join(OUT, '404.html'), `<!DOCTYPE html>
