@@ -91,3 +91,5 @@ Cada página sale con: title y meta description propios, URL limpia, `canonical`
 páginas con FAQ, Service en servicios y BlogPosting en los posts), `sitemap.xml`
 y `robots.txt`. Al publicar, da de alta `https://nordwise.consulting/sitemap.xml` en
 Google Search Console.
+
+_Última publicación: 19-10-2026._

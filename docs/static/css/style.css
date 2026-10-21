@@ -20,6 +20,7 @@
   --red-soft: rgba(148,1,38,0.35);
 
   --f-h: 'Epilogue', system-ui, sans-serif;
+  --f-logo: 'Archivo', system-ui, sans-serif;
   --f-b: 'Figtree', system-ui, sans-serif;
   --f-m: 'JetBrains Mono', monospace;
 
@@ -94,7 +95,7 @@ a { color: inherit; }
   border-bottom: 1px solid transparent;
 }
 .nw-nav.scrolled { background: rgba(18,18,18,0.85); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-color: var(--border); height: 62px; }
-.nw-logo { font-family: var(--f-h); font-weight: 800; font-size: 21px; color: var(--white); text-decoration: none; letter-spacing: -0.02em; }
+.nw-logo { font-family: var(--f-logo); font-weight: 700; font-size: 21px; color: var(--white); text-decoration: none; letter-spacing: -0.01em; }
 .nw-logo span { color: var(--red-h); }
 .nw-links { display: flex; gap: 26px; }
 .nw-links a { color: var(--mid); text-decoration: none; font-size: 14px; font-weight: 500; transition: color .2s; position: relative; padding: 6px 0; }
