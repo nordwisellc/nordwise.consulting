@@ -160,6 +160,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://nordwise.consulting/en/tax-residency/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nordwise.consulting/cambios-de-residencia/"/>
   </url>
+  <url><loc>https://nordwise.consulting/blog/calendario-obligaciones-llc/</loc><lastmod>2026-10-26</lastmod>
+  </url>
+  <url><loc>https://nordwise.consulting/blog/requisitos-para-abrir-una-llc/</loc><lastmod>2026-10-26</lastmod>
+  </url>
+  <url><loc>https://nordwise.consulting/blog/que-es-una-llc/</loc><lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordwise.consulting/blog/que-es-una-llc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordwise.consulting/en/blog/us-llc-for-non-residents/"/>
+  </url>
   <url><loc>https://nordwise.consulting/blog/cuando-darse-de-alta-como-autonomo/</loc><lastmod>2026-10-19</lastmod>
   </url>
   <url><loc>https://nordwise.consulting/blog/que-es-el-ein/</loc><lastmod>2026-06-28</lastmod>
@@ -171,11 +179,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://nordwise.consulting/blog/que-es-el-ein/"/>
   </url>
   <url><loc>https://nordwise.consulting/blog/llc-en-eeuu-para-espanoles/</loc><lastmod>2026-06-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordwise.consulting/blog/llc-en-eeuu-para-espanoles/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordwise.consulting/en/blog/us-llc-for-non-residents/"/>
   </url>
   <url><loc>https://nordwise.consulting/en/blog/us-llc-for-non-residents/</loc><lastmod>2026-06-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://nordwise.consulting/en/blog/us-llc-for-non-residents/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordwise.consulting/blog/llc-en-eeuu-para-espanoles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordwise.consulting/blog/que-es-una-llc/"/>
   </url>
 </urlset>

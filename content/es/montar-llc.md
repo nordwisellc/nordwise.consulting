@@ -10,7 +10,13 @@ hero_title: Tu LLC en EEUU, | *sin pisar EEUU.*
 hero_desc: Constituimos tu empresa americana de principio a fin, EIN incluido, y te acompañamos hasta que estés cobrando. Todo remoto, todo en tu idioma.
 hero_cta: Crear mi LLC
 hero_cta2: Ver el paquete
+hero_cta2_href: /montar-llc/paquete-completo/
 hero_micro: 100% remoto · Sin viajar · Desde €850
+
+what_tag: Qué es una LLC
+what_title: Qué es una LLC | *y por qué la usan los no residentes.*
+what_desc: Una LLC es una sociedad de responsabilidad limitada creada bajo la ley de un estado de EEUU. Tiene personalidad jurídica propia y protege tu patrimonio personal de las deudas del negocio. Por defecto es transparente: no paga impuesto federal y el beneficio tributa donde vives tú.
+what_desc2: No es una forma de no pagar impuestos, y cada año tiene obligaciones con el estado y con el IRS. Te lo contamos todo en nuestra [guía completa sobre qué es una LLC](/blog/que-es-una-llc/).
 
 cards_tag: Servicios LLC
 cards_title: Elige lo que necesitas, | *nosotros hacemos el resto.*
@@ -32,6 +38,15 @@ cards:
     title: Servicios LLC
     desc: EIN suelto, amendments y otros trámites puntuales para LLCs ya constituidas.
     href: /montar-llc/servicios-llc/
+
+why_tag: Lo esencial
+why_title: Lo que tienes que saber | *antes de abrir tu LLC.*
+why_points:
+  - Protege tu patrimonio, las deudas de la LLC son de la LLC, no tuyas.
+  - Por defecto no paga impuesto federal, tributas en tu país de residencia, y en EEUU solo si tienes presencia allí.
+  - Te da acceso a banca en dólares y a pasarelas de pago como Stripe.
+  - En Delaware, Nuevo México o Wyoming, bien constituida, tu nombre no tiene por qué aparecer en el registro público.
+  - Cada año tiene obligaciones con el estado y con el IRS, y olvidar el Form 5472 cuesta 25.000 $. Para eso está nuestro [compliance anual](/montar-llc/compliance-anual/).
 
 steps_tag: Proceso
 steps_title: Así es como | *creamos tu LLC.*
@@ -57,7 +72,7 @@ faq:
   - q: ¿Un no residente tiene que pagar impuestos en EEUU?
     a: Una SMLLC de un no residente, sin empleados ni presencia física en EEUU, generalmente no tributa en Estados Unidos. Cada caso se revisa en la consulta inicial.
   - q: ¿Qué estado de EEUU es mejor para no residentes?
-    a: Nuevo México es habitualmente la opción más económica. Wyoming ofrece alta privacidad y Delaware es preferido por startups. La elección depende de tu caso.
+    a: Depende de tu caso. Delaware, Nuevo México y Wyoming son los más habituales entre no residentes, y los tres permiten mantener la privacidad de los socios. Cambian sobre todo los costes anuales y lo que encaja con tu actividad, y eso lo revisamos contigo en la primera consulta.
   - q: ¿Qué cuenta bancaria puedo abrir con mi LLC?
     a: Con tu LLC y EIN puedes abrir cuentas en Mercury, Relay, Wise Business o activar Stripe. Te asesoramos sobre qué encaja mejor con tu negocio.
 

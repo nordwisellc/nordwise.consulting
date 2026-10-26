@@ -61,9 +61,21 @@ function md(src) {
       flushP(p); const rows = [];
       while (i < lines.length && /^\s*\|.*\|\s*$/.test(lines[i])) { rows.push(lines[i]); i++; }
       const cells = r => r.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map(c => c.trim());
+      /* Calendario: tabla cuyo encabezado es "Enero | Febrero | Marzo" → cuadrícula de tarjetas por mes */
+      const data = rows.filter(r => !/^\s*\|(\s*:?-+:?\s*\|)+\s*$/.test(r)).map(cells);
+      if (data.length && data[0].join('|') === 'Enero|Febrero|Marzo' && data.length % 2 === 0) {
+        let cal = '<div class="cal-grid">';
+        for (let k = 0; k < data.length; k += 2) {
+          data[k].forEach((m, j) => {
+            const items = (data[k + 1][j] || '').split(' · ').filter(Boolean).map(x => '<li>' + inline(x) + '</li>').join('');
+            cal += `<div class="cal-card"><div class="cal-month">${inline(m.replace(/\*\*/g, ''))}</div><ul>${items}</ul></div>`;
+          });
+        }
+        html.push(cal + '</div>'); continue;
+      }
       let out = '<div class="table-wrap"><table>';
       rows.forEach((r, ri) => {
-        if (/^\s*\|[\s:-]+\|\s*$/.test(r)) return;
+        if (/^\s*\|(\s*:?-+:?\s*\|)+\s*$/.test(r)) return;
         const tag = ri === 0 ? 'th' : 'td';
         out += '<tr>' + cells(r).map(c => `<${tag}>${inline(c)}</${tag}>`).join('') + '</tr>';
       });

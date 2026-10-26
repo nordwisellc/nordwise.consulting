@@ -3,7 +3,7 @@ title: LLC en EEUU para españoles, la guía honesta
 description: Qué es una LLC americana, cuándo tiene sentido para un residente en España y qué pasa con Hacienda. Guía clara, sin humo y sin letra pequeña.
 date: 2026-06-15
 slug: llc-en-eeuu-para-espanoles
-ref: post-llc-guide
+ref: post-llc-espana
 author: Nordwise
 tags:
   - LLC
@@ -15,9 +15,9 @@ Si facturas online y vives en España, es casi seguro que alguien te ha dicho qu
 
 ## Qué es exactamente una LLC
 
-Una LLC (Limited Liability Company) es la forma societaria más flexible de Estados Unidos. Para un no residente sin presencia física en EEUU, funciona como un vehículo transparente, la LLC en sí no paga impuesto de sociedades americano, los beneficios se atribuyen a su dueño.
+Una LLC es una sociedad de responsabilidad limitada americana que, por defecto, no paga impuesto federal: el beneficio se atribuye a su dueño. Si quieres entenderla a fondo, tienes nuestra [guía sobre qué es una LLC](/blog/que-es-una-llc/). Aquí nos centramos en lo que significa si vives en España.
 
-Eso la hace ligera y barata de mantener, pero también significa algo importante, **los impuestos se pagan donde tú eres residente fiscal**. Si vives en España, tributas en España por lo que ganes a través de la LLC.
+Y eso es importante: **los impuestos se pagan donde tú eres residente fiscal**. Si vives en España, tributas en España por lo que ganes a través de la LLC.
 
 ## Entonces, ¿para qué sirve?
 

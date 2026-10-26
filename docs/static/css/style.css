@@ -311,3 +311,13 @@ body.menu-open .nw-burger span:nth-child(3) { transform: translateY(-7px) rotate
   .f-grid { grid-template-columns: repeat(2, 1fr); }
   .btn-nav { display: none; }
 }
+
+/* Calendario de obligaciones (posts) */
+.cal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 28px 0; }
+.cal-card { background: var(--bg-card2); border: 1px solid var(--border); border-radius: 14px; padding: 18px 18px 14px; }
+.cal-month { font-family: var(--f-h); color: var(--red-h); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 10px; }
+.prose .cal-card ul { list-style: none; margin: 0; padding: 0; }
+.prose .cal-card li { margin: 0 0 7px; color: var(--white); font-size: 14.5px; line-height: 1.4; }
+.prose .cal-card li em { color: var(--dim); }
+@media (max-width: 720px) { .cal-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 340px) { .cal-grid { grid-template-columns: 1fr; } }

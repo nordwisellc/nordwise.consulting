@@ -11,7 +11,7 @@ tags:
   - Banca
 ---
 
-Constituir la LLC es solo la mitad del trabajo. La otra mitad, la que convierte un papel en una empresa operativa, se llama EIN.
+Constituir la LLC es solo la mitad del trabajo. La otra mitad, la que convierte un papel en una empresa operativa, se llama EIN. Si aún no tienes claro qué es una LLC, empieza por nuestra [guía sobre qué es una LLC](/blog/que-es-una-llc/). Y si quieres ver todo lo que necesitas además del EIN, tienes los [requisitos para abrir una LLC](/blog/requisitos-para-abrir-una-llc/).
 
 ## Qué es el EIN
 
