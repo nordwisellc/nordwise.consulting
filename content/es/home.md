@@ -3,14 +3,14 @@ layout: home
 ref: home
 url: /
 title: Nordwise — LLC en EEUU para no residentes | CFO externo | Residencia fiscal
-description: Constituye tu LLC americana desde €850. CFO externo para empresas en crecimiento. Cambio de residencia fiscal legal y seguro. Gestión 100% remota desde cualquier país.
+description: Constituye tu LLC americana con acompañamiento completo. CFO externo para empresas en crecimiento. Cambio de residencia fiscal legal y seguro. Gestión 100% remota desde cualquier país.
 
 hero_tag: Consultora financiera boutique
 hero_title: Tu empresa en EEUU, | tus finanzas en orden, | *sin fronteras.*
 hero_desc: Abre tu LLC americana, optimiza tus finanzas con un CFO externo o cambia donde tributas. Todo 100% remoto, sin burocracia y con alguien de confianza al otro lado.
 hero_cta: Habla con un experto
 hero_cta2: Ver servicios
-hero_micro: 100% remoto · Acompañado en todo momento · Desde €850
+hero_micro: 100% remoto · Acompañado en todo momento
 panel_tag: Stripe · cobros
 panel_badge: Con LLC
 panel_big: $12,840
@@ -71,17 +71,4 @@ steps:
   - title: Entrega y soporte
     desc: Recibes toda la documentación y seguimos disponibles cuando lo necesites.
 
-testi_tag: Clientes
-testi_title: Quienes ya | *han dado el paso.*
-testi_note: Nunca publicamos datos sin autorización expresa del cliente.
-testimonials:
-  - text: [PENDIENTE — testimonio 1]
-    name: J.D.
-    role: Trader online · España
-  - text: [PENDIENTE — testimonio 2]
-    name: E.M.
-    role: Creador de contenido · España
-  - text: [PENDIENTE — testimonio 3]
-    name: E.P.
-    role: SalesCloser LLC · España
 ---

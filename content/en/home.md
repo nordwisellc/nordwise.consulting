@@ -3,14 +3,14 @@ layout: home
 ref: home
 url: /en/
 title: Nordwise — US LLC for Non-Residents | External CFO | Tax Residency
-description: Form your US LLC from €850. External CFO for growing businesses. Legal, well-planned tax residency changes. 100% remote from any country.
+description: Form your US LLC with full guidance. External CFO for growing businesses. Legal, well-planned tax residency changes. 100% remote from any country.
 
 hero_tag: Boutique financial consultancy
 hero_title: Your US company, | your finances in order, | *without borders.*
 hero_desc: Open your US LLC, level up your finances with an external CFO or change where you pay tax. All 100% remote, no red tape, and with someone you trust on the other side.
 hero_cta: Talk to an expert
 hero_cta2: View services
-hero_micro: 100% remote · Guided at every step · From €850
+hero_micro: 100% remote · Guided at every step
 panel_tag: Stripe · payments
 panel_badge: With LLC
 panel_big: $12,840
@@ -71,17 +71,4 @@ steps:
   - title: Delivery & support
     desc: You receive all your documentation and we remain available whenever you need us.
 
-testi_tag: Clients
-testi_title: Those who have | *already taken the step.*
-testi_note: We never publish data without the client's explicit consent.
-testimonials:
-  - text: [PENDING — testimonial 1]
-    name: J.D.
-    role: Online trader · Spain
-  - text: [PENDING — testimonial 2]
-    name: E.M.
-    role: Content creator · Spain
-  - text: [PENDING — testimonial 3]
-    name: E.P.
-    role: SalesCloser LLC · Spain
 ---

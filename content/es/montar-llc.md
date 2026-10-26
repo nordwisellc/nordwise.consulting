@@ -3,18 +3,18 @@ layout: hub
 ref: llc
 url: /montar-llc/
 title: Montar una LLC en EEUU para no residentes — Nordwise
-description: Constituye tu LLC americana 100% online desde €850. New Mexico, EIN, asesoría bancaria y soporte continuo. Sin viajar y sin burocracia complicada.
+description: Constituye tu LLC americana 100% online. Te ayudamos a elegir el estado que más encaja contigo y a abrir tus cuentas bancarias. Sin viajar.
 
 hero_tag: LLC americana
 hero_title: Tu LLC en EEUU, | *sin pisar EEUU.*
-hero_desc: Constituimos tu empresa americana de principio a fin, EIN incluido, y te acompañamos hasta que estés cobrando. Todo remoto, todo en tu idioma.
+hero_desc: Constituimos tu empresa americana de principio a fin, EIN incluido. Te ayudamos a encontrar el estado que más encaja con lo que buscas y a abrir tus cuentas bancarias, hasta que estés cobrando. Todo remoto, todo en tu idioma.
 hero_cta: Crear mi LLC
 hero_cta2: Ver el paquete
 hero_cta2_href: /montar-llc/paquete-completo/
-hero_micro: 100% remoto · Sin viajar · Desde €850
+hero_micro: 100% remoto · Sin viajar · Te ayudamos con el estado y el banco
 
 what_tag: Qué es una LLC
-what_title: Qué es una LLC | *y por qué la usan los no residentes.*
+what_title: ¿Qué es una LLC | *y por qué es interesante para no residentes en EEUU?*
 what_desc: Una LLC es una sociedad de responsabilidad limitada creada bajo la ley de un estado de EEUU. Tiene personalidad jurídica propia y protege tu patrimonio personal de las deudas del negocio. Por defecto es transparente: no paga impuesto federal y el beneficio tributa donde vives tú.
 what_desc2: No es una forma de no pagar impuestos, y cada año tiene obligaciones con el estado y con el IRS. Te lo contamos todo en nuestra [guía completa sobre qué es una LLC](/blog/que-es-una-llc/).
 
@@ -23,8 +23,7 @@ cards_title: Elige lo que necesitas, | *nosotros hacemos el resto.*
 cards:
   - tag: Más elegido
     title: Paquete completo
-    desc: Constitución en New Mexico, EIN, documentación y asesoría bancaria. Todo lo que necesitas para empezar a operar.
-    price: €850
+    desc: Constitución, EIN y documentación. Te ayudamos a elegir el estado que más encaja contigo y a abrir tus cuentas bancarias.
     href: /montar-llc/paquete-completo/
   - tag: Renovación
     title: Compliance anual
@@ -52,13 +51,13 @@ steps_tag: Proceso
 steps_title: Así es como | *creamos tu LLC.*
 steps:
   - title: Primera consulta
-    desc: Revisamos tu actividad y tu país de residencia para confirmar que la LLC encaja con tu caso.
+    desc: Revisamos tu actividad y tu país de residencia, confirmamos que la LLC encaja y te ayudamos a encontrar el estado que más te conviene.
   - title: Recogida de datos
     desc: Un formulario breve con lo imprescindible. Nosotros preparamos toda la documentación.
   - title: Constitución y EIN
     desc: Registramos la LLC y tramitamos tu número fiscal ante el IRS. Te avisamos en cada hito.
   - title: Entrega y banca
-    desc: Recibes tu documentación completa y te orientamos para abrir cuenta en Mercury, Wise o Stripe.
+    desc: Recibes tu documentación completa y te acompañamos paso a paso en la apertura de tus cuentas bancarias (Mercury, Wise o Stripe).
 
 faq_tag: Preguntas frecuentes
 faq_title: Lo que más | *nos preguntan.*

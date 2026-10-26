@@ -3,22 +3,21 @@ layout: hub
 ref: llc
 url: /en/llc-setup/
 title: US LLC Setup for Non-Residents — Nordwise
-description: Form your US LLC 100% online from €850. New Mexico, EIN, banking guidance and ongoing support. No travel, no complicated paperwork.
+description: Form your US LLC 100% online. We help you choose the state that fits you best and open your bank accounts. No travel needed.
 
 hero_tag: US LLC
 hero_title: Your US LLC, | *without setting foot in the US.*
-hero_desc: We form your American company end to end, EIN included, and stay with you until you're getting paid. All remote, all in your language.
+hero_desc: We form your American company end to end, EIN included. We help you find the state that best fits what you need and open your bank accounts, until you're getting paid. All remote, all in your language.
 hero_cta: Create my LLC
 hero_cta2: View the package
-hero_micro: 100% remote · No travel · From €850
+hero_micro: 100% remote · No travel · We help with state and banking
 
 cards_tag: LLC services
 cards_title: Choose what you need, | *we handle the rest.*
 cards:
   - tag: Most popular
     title: Full package
-    desc: New Mexico formation, EIN, documentation and banking guidance. Everything you need to start operating.
-    price: €850
+    desc: Formation, EIN and documentation. We help you choose the state that fits you best and open your bank accounts.
     href: /en/llc-setup/full-package/
   - tag: Renewal
     title: Annual compliance
@@ -37,13 +36,13 @@ steps_tag: Process
 steps_title: This is how | *we create your LLC.*
 steps:
   - title: First consultation
-    desc: We review your activity and country of residence to confirm an LLC fits your case.
+    desc: We review your activity and country of residence, confirm an LLC fits and help you find the best state for you.
   - title: Data collection
     desc: One short form with the essentials. We prepare all the documentation.
   - title: Formation & EIN
     desc: We register the LLC and obtain your federal tax ID from the IRS, with updates at every milestone.
   - title: Delivery & banking
-    desc: You receive your full documentation and guidance to open accounts with Mercury, Wise or Stripe.
+    desc: You receive your full documentation and we guide you step by step to open your bank accounts (Mercury, Wise or Stripe).
 
 faq_tag: FAQ
 faq_title: What we get | *asked the most.*

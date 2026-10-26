@@ -284,7 +284,7 @@ function whatHtml(d) {
   if (!d.what_title && !d.what_desc) return '';
   return `
 <section class="section" id="contenido">
-  <div class="wrap wrap-narrow">
+  <div class="wrap wrap-what">
     ${eyebrow(d.what_tag)}
     ${d.what_title ? `<h2>${title2html(d.what_title)}</h2>` : ''}
     ${d.what_desc ? `<p class="what-desc">${inline(d.what_desc)}</p>` : ''}
